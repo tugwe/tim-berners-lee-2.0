@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: #e94fe7;
+}
+.profile {
+    border-radius: 50%;
+    width: 300px;
+}
+#welcome {
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+#bio {
+    font-family: cursive;
+    padding: 50px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#name {
+    font-family: 'Pacifico', cursive;
+}
+a {
+    text-decoration:none;
+}
+.contact1 {
+display: inline;
+}
+.links:hover{
+font-size: 25px;
+text-decoration:underline;
+}
+#writings a {
+    text-decoration: underline !important;
+    color: aquamarine;
+    background-color: #e94fe7;
+}
+#videos{
+    background-color: rgb(162, 131, 219);
+}
+#work {
+    background-color: rgb(225, 64, 64);
+}
+#contact {
+    background-color: rgb(82, 232, 132);
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
